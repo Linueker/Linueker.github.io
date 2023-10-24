@@ -63,5 +63,14 @@ footer
 }
 .formulär
 {
-    padding: 8em;
+    margin-top: 12em;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    color: #121412;
+    border-style: groove;
+    width: fit-content;
+    border-color: #9db99d;
+    background-color: rgba(239, 245, 239, 0.6);
+   
 }
