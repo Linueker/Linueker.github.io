@@ -1,15 +1,67 @@
 body 
 {
-    background-color: darkgoldenrod;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(pexels-eberhard-grossgasteiger-1367192.jpg); 
+    background-size: 100%;
+    margin: 0;
 }
 
 header
 {
-    padding-top: 10em;
-    background-color:forestgreen
+    background-color:#9db99d;
+    position: fixed; top: 0;
+    height: 8em; width: 100%;
+    float: left;
 }
 
 footer
 {
-    background-color: forestgreen;
+    background-color: #9db99d;
+    position: fixed; bottom: 0; 
+    height: 8em; width: 100%; 
+}
+
+.linus
+{
+    border-style: groove;
+    border-color: #9db99d;
+}
+
+.presentation
+{
+    padding-top: 14em; place-content: center;
+    color: #121412;
+    display: flex;
+}
+
+.infotext
+{
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 28em;
+    border-style: groove;
+    border-color: #9db99d;
+    background-color: rgba(239, 245, 239, 0.6);
+}
+.socialbuttons:hover 
+{
+    opacity: 0.7;
+}
+.meny
+{
+    padding: 2em;
+}
+.menyval
+{
+    padding: 4em;
+}
+.menyval:hover
+{
+    opacity: 0.7;
+}
+.formulär
+{
+    padding: 8em;
 }
