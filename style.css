@@ -1,104 +1,108 @@
-body 
-{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url(marita-kavelashvili-ugnrXk1129g-unsplash.jpg); 
+    background-image: url(marita-kavelashvili-ugnrXk1129g-unsplash.jpg);
     background-size: 100%;
     margin: 0;
 }
 
-header
-{
-    background-color:#9db99d;
-    position: fixed; top: 0;
-    height: 8em; width: 100%;
+header {
+    
+    background-color: #9db99d;
+    position: fixed;
+    top: 0;
+    height: 8em;
+    width: 100%;
     float: left;
 }
 
-footer
-{
+footer {
     background-color: #9db99d;
-    position: fixed; bottom: 0; 
-    height: 8em; width: 100%; 
+    position: fixed;
+    bottom: 0;
+    height: 8em;
+    width: 100%;
 }
 
-.linus
-{
-    border-style: groove;
-    border-color: #9db99d;
+.linus {
+    border-radius: 12px;
 }
 
-.presentation
-{
-    padding-top: 14em; place-content: center;
+.presentation {
+    padding-top: 14em;
+    place-content: center;
     color: #121412;
     display: flex;
 }
 
-.infotext
-{
+.infotext {
     padding-left: 2em;
     padding-right: 2em;
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 28em;
-    border-style: groove;
+    border-style: dashed;
     border-color: #9db99d;
+    border-radius: 12px;
     background-color: rgba(239, 245, 239, 0.6);
 }
-.socialmedia
-{
+
+.socialmedia {
     padding: 2em;
 }
-.socialbuttons:hover 
-{
+
+.socialbuttons:hover {
     opacity: 0.7;
 }
-.meny
-{
+
+.meny {
     padding: 2em;
 }
-.menyval
-{
+
+.menyval {
     padding: 4em;
 }
-.menyval:hover
-{
+
+.menyval:hover {
     opacity: 0.7;
 }
-.formulär
-{
+
+.formulär {
     margin-top: 11em;
     padding: 2em;
-    
+
     justify-content: center;
     color: #121412;
-    border-style: groove;
+    border-style: dashed;
+    border-radius: 12px;
     width: fit-content;
     border-color: #9db99d;
     background-color: rgba(239, 245, 239, 0.6);
 }
-.projekt
-{
-    padding-top: 14em; place-content: center;
+
+.projekt {
+    padding-top: 14em;
+    place-content: center;
     display: flex;
 }
-.projektbild
-{
+
+.projektbild {
     filter: grayscale(100%);
     opacity: 0.7;
+    border-radius: 12px;
 }
-.projektbild:hover
-{
+
+.projektbild:hover {
     filter: none;
     opacity: 1;
 }
-.pyrpresentation
-{
-    padding-top: 10em; place-content: center;
+
+.pyrpresentation {
+    padding-top: 10em;
+    place-content: center;
     color: #121412;
     display: flex;
 }
-.pyramidenrun:hover
-{
-    transform:scale(1.3);
+
+.pyramidenrun:hover {
+    transform: scale(1.3);
 }
