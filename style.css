@@ -1,7 +1,7 @@
 body 
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url(pexels-eberhard-grossgasteiger-1367192.jpg); 
+    background-image: url(marita-kavelashvili-ugnrXk1129g-unsplash.jpg); 
     background-size: 100%;
     margin: 0;
 }
@@ -45,6 +45,10 @@ footer
     border-color: #9db99d;
     background-color: rgba(239, 245, 239, 0.6);
 }
+.socialmedia
+{
+    padding: 2em;
+}
 .socialbuttons:hover 
 {
     opacity: 0.7;
@@ -63,14 +67,38 @@ footer
 }
 .formulär
 {
-    margin-top: 12em;
+    margin-top: 11em;
     padding: 2em;
-    display: flex;
+    
     justify-content: center;
     color: #121412;
     border-style: groove;
     width: fit-content;
     border-color: #9db99d;
     background-color: rgba(239, 245, 239, 0.6);
-   
+}
+.projekt
+{
+    padding-top: 14em; place-content: center;
+    display: flex;
+}
+.projektbild
+{
+    filter: grayscale(100%);
+    opacity: 0.7;
+}
+.projektbild:hover
+{
+    filter: none;
+    opacity: 1;
+}
+.pyrpresentation
+{
+    padding-top: 10em; place-content: center;
+    color: #121412;
+    display: flex;
+}
+.pyramidenrun:hover
+{
+    transform:scale(1.3);
 }

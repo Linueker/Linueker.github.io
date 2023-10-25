@@ -15,26 +15,38 @@
             </center>
         </header>
         <center>
-        
+            
+
         <section class="formulär">
-            <center>
             <h3>Skriv ett meddelande till mig!</h3>
-            <form>
-                <select name="ämnen" id="ämnen">
+            
+            <form style="text-align: left;">
+                <input type="text" id="namn1" name="Namn" required placeholder="Namn"><br>
+                <input type="text" id="epost1" name="epost" required placeholder="E-post"><br>
+                <input type="text" id="telefon1" name="telefon" required placeholder="Telefonnummer"><br>
+                <select name="ämnen" id="ämnen1">
                     <option value="arbete">Arbete</option>
                     <option value="privat">Privat</option>
                     <option value="övrigt">Övrigt</option>
                 </select><br>
-                <textarea name="message" id="form1" cols="30" rows="6" required placeholder="Skriv något.."></textarea>
+                <textarea name="message" id="form1" cols="30" rows="6" required placeholder="Skriv något.."></textarea><br>
+                <input type="checkbox" name="policy" value="godkänd" required>
+                <label for="policy">Jag har läst och godkänner integritetspolicyn</label>
                 <br><input type="submit" value="Skicka">
             
             </form>
            
-            </center>
+            
         </section>
     </center>
         <footer>
-
+            <section class="socialmedia">
+                <center>
+                <a href="https://www.facebook.com/linus.ekermo" target="_blank" class="socialbuttons"><img src="ikoner/icons8-facebook-50.png" alt="Could not display image.."></a>
+                <a href="https://www.linkedin.com/in/linus-ekermo-676192290/?originalSubdomain=se" target="_blank" class="socialbuttons"><img src="ikoner/icons8-linkedin-50.png" alt="Could not display image.."></a>
+                <a href="https://www.instagram.com/algalor/" target="_blank" class="socialbuttons"><img src="ikoner/icons8-instagram-50.png" alt="Could not display image.."></a>
+                </center>
+            </section>
 
         </footer>
     </body>
