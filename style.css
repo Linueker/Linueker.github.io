@@ -6,9 +6,6 @@ body {
 }
 
 header {
-    
-    /*background-color: #9db99d;*/
-    
     position: fixed;
     top: 0;
     height: 8em;
@@ -17,13 +14,15 @@ header {
 }
 
 footer {
-    /*background-color: #9db99d;*/
     position: fixed;
     bottom: 0;
     height: 8em;
     width: 100%;
     text-align: center;
-    
+}
+
+ul{
+    padding: 0;
 }
 
 .linus {
@@ -50,24 +49,28 @@ footer {
 }
 
 .socialmedia {
-    
     padding: 2em;
     filter: invert(100);
-    
 }
 
 .socialbuttons:hover {
     transform: scale(1.5);
     opacity: 0.7;
-    
 }
 
 .meny {
-    padding: 2em;
+    padding-top: 2em;
+    
+    
 }
 
 .menyval {
+    
     padding: 4em;
+    display: inline;
+    list-style: none;
+    
+    
 }
 
 .menyval:hover {

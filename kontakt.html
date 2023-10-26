@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
 
 <head>
     <link rel="stylesheet" href="style.css">
@@ -8,14 +8,16 @@
 
 <body>
     <header>
-            <nav class="meny">
-                <li style="display: inline;" class="menyval"><a href="index.html"><img src="ikoner/button_startsida.png"
-                            alt=""></a></li>
-                <li style="display: inline;" class="menyval"><a href="kontakt.html"><img src="ikoner/button_kontakt.png"
-                            alt=""></a></li>
-                <li style="display: inline;" class="menyval"><a href="projekt.html"><img
-                            src="ikoner/button_portfolio.png" alt=""></a></li>
-            </nav>
+        <nav class="meny">
+            <ul>
+            <li class="menyval"><a href="index.html"><img src="ikoner/button_startsida.png"
+                  alt=""></a></li>
+            <li class="menyval"><a href="kontakt.html"><img src="ikoner/button_kontakt.png"
+                  alt=""></a></li>
+            <li class="menyval"><a href="projekt.html"><img
+                  src="ikoner/button_portfolio.png" alt=""></a></li>
+            </ul>
+        </nav>
     </header>
         <section class="formulär">
             <h3>Skriv ett meddelande till mig!</h3>
@@ -24,12 +26,13 @@
                 <input type="text" id="namn1" name="Namn" required placeholder="Namn">*<br>
                 <input type="text" id="epost1" name="epost" required placeholder="E-post">*<br>
                 <input type="text" id="telefon1" name="telefon" placeholder="Telefonnummer"><br>
-                <select name="ämnen" id="ämnen1">
+                <br>
+                Gäller: <select name="ämnen" id="ämnen1">
                     <option value="arbete">Arbete</option>
                     <option value="privat">Privat</option>
                     <option value="övrigt">Övrigt</option>
-                </select><br>
-                <textarea name="message" id="form1" cols="30" rows="6"
+                </select><br><br>
+                <textarea name="message" id="form1" cols="50" rows="6"
                     placeholder="Skriv något.."></textarea><br>
                 <input type="checkbox" name="policy" id="policy" value="godkänd" required>
                 <label for="policy">Jag har läst och godkänner integritetspolicyn *</label>
@@ -44,6 +47,8 @@
                     class="socialbuttons"><img src="ikoner/icons8-linkedin-50.png" alt="Could not display image.."></a>
                 <a href="https://www.instagram.com/algalor/" target="_blank" class="socialbuttons"><img
                         src="ikoner/icons8-instagram-50.png" alt="Could not display image.."></a>
+                <a href="CVLinusEkermo2023.pdf" target="_blank" class="socialbuttons"><img
+                            src="ikoner/icons8-cv-50.png" alt="Could not display image.."></a>
         </section>
     </footer>
 </body>
