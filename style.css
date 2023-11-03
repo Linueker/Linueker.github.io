@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: Digital;
     src: url('fonts/dot_matrix/DOTMATRI.TTF');
@@ -31,7 +32,7 @@
 
 @keyframes showTime {
     0% {
-        left: -9em;
+        left: -8.6em;
     }
     100% {
         left: -0.5em;
@@ -204,10 +205,7 @@ figure {
 .time {
     height: 48px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     padding: 4px;
-    padding-right: 4.3em;
     padding-left: 1em;
     background-color: rgba(239, 245, 239, 0.6);
     border-radius: 5px;
@@ -215,25 +213,22 @@ figure {
     font-family: Digital;
     font-size: larger;
     position: fixed;
-    left: -10.6em;
+    left: -8.6em;
     bottom: 2em;
-    margin-left: 0;
 }
-
 
 .time:hover {
     background-color: rgba(239, 245, 239, 0.904);
     animation-name: showTime;
-    animation-duration: 1s;
+    animation-duration: 0.7s;
     left: -0.5em;
-    
 }
 
 #clockIcon {
+    padding-left: 0.3em;
+    padding-top: 0.1em;
     display: flex;
-    
-    padding-left: 2.3em;
-    
+    flex-direction: column;
 }
 
 .bildtext {
