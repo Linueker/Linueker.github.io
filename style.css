@@ -159,7 +159,11 @@ figure {
 .menyval:hover {
     opacity: 0.7;
 }
-
+.menuImg:hover {
+    filter:saturate(3);
+    transform: scale(1.2);
+    transition: transform .2s;
+}
 .formulär {
     padding: 1em;
     padding-top: 0em;
@@ -213,7 +217,7 @@ figure {
     font-family: Digital;
     font-size: larger;
     position: fixed;
-    left: -8.6em;
+    left: -8.8em;
     bottom: 2em;
 }
 
@@ -238,4 +242,11 @@ figure {
     bottom: 16px;
     right: 16px;
     color: #9db99d;
+}
+.konstruktion {
+    color: #294129;
+    margin: 0;
+}
+#mailkontakt {
+    margin-bottom: 2em;
 }
