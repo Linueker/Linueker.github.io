@@ -95,7 +95,9 @@ figure {
 }
 
 .linus {
-    border-radius: 12px;
+    border-radius: 50%;
+    width: 15em;
+    margin-right: 1em;
 }
 
 .presentation {
@@ -110,7 +112,7 @@ figure {
     text-align: center;
     color: #294129;
     width: 28em;
-    border-style: dashed;
+    border-style:dashed;
     border-color: #9db99d;
     border-radius: 12px;
     background-color: rgba(239, 245, 239, 0.6);
@@ -186,6 +188,7 @@ figure {
     filter: grayscale(100%);
     opacity: 0.7;
     border-radius: 12px;
+    height: 13em;
 }
 
 .projektbild:hover {
@@ -203,6 +206,28 @@ figure {
     border-radius: 12px;
 }
 .pyramidenrun:hover {
+    transform: scale(1.7);
+    transition: transform .2s;
+}
+
+.stktext {
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+    color: #294129;
+    width: 24em;
+    border-style:dashed;
+    border-color: #9db99d;
+    border-radius: 12px;
+    background-color: rgba(239, 245, 239, 0.6);
+}
+
+.stkrun {
+    border-radius: 12px;
+    
+}
+
+.stkrun:hover {
     transform: scale(1.7);
     transition: transform .2s;
 }
